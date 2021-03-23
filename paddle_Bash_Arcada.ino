@@ -2,7 +2,8 @@
 // for Adafruit Pygamer using Adafruit Arcada library, using the native Arduino tones library for sound
 // sourceCode, readme and sketch GPL copyright info: https://github.com/DrNebin/paddle_Bash_Arcada
 // (If you received this sketch as part of a Github library fork distribution, then additional library attribution and copyright info for Arcada as per the included fork readme.)
-// This sketch is intended to show how to use Arcada to write a simple pong-like game on the pygamer. The sketch is good for a beginner because it is short,  keeps all the code in one file to see, helps learn a basic game loop, a switch case for game states, and the use of structs for data.
+// This sketch is intended to show how to use Arcada to write a simple pong-like game on the pygamer. The sketch is good for a beginner because it is short. It helps learn a basic game loop, a switch case for game states, and the use of structs for data.
+// Lastly, it shows how to use native Arduino tones in a non-blocking way for gaming that is wrapped into a class called Sound.
 
 #include "sound.h"
 #include "pitches.h"
